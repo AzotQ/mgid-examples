@@ -6,18 +6,6 @@ const chooseLang = document.querySelector('#choose-language');
 const elemToShow = document.querySelector('#choose-element');
 const showTimeBtn = document.querySelector('#show-time');
 
-// showTimeBtn.addEventListener('click', getPubTime(chooseLang.value, document.querySelectorAll(`.${elemToShow.value}`)));
-
-// console.dir(chooseLang);
-
-
-// chooseLang.value
-
-// const rus = 'rus',
-//     ukr = 'ukr',
-//     eng = 'eng',
-//     esp = 'esp';
-
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
