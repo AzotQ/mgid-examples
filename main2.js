@@ -1,10 +1,5 @@
-const descr = document.querySelectorAll(`.mcdesc a`);
-const domain = document.querySelectorAll('.mcdomain a');
-const pubTime = document.querySelectorAll('.pub-time');
-
 const chooseLang = document.querySelector('#choose-language');
 const elemToShow = document.querySelector('#choose-element');
-const showTimeBtn = document.querySelector('#show-time');
 
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
